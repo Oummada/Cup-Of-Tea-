@@ -1,0 +1,264 @@
+@font-face {
+    font-family: "Freight Sans Book SC";
+    src: url(./Font/Freight\ Sans\ Book\ SC.otf);
+}
+
+@font-face {
+    font-family: "Lucy_Rounded_Bold";
+    src: url(./Font/Lucy_Rounded_Bold.otf);
+}
+
+@font-face {
+    font-family: "Cabrito Sans W01 Cond Medium";
+    src: url(./Font/Cabrito\ Sans\ W01\ Cond\ Medium.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(./img-cup-of-tea/bg.jpg);
+    background-size: cover;
+    color: #bdcda2;
+    font-family: "Freight Sans Book SC";
+}
+
+#popup {
+    background-color: #879e0fb5;
+    font-family: "Freight Sans Book SC";
+    text-align: center;
+    padding: 10px;
+}
+
+#header-dev {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#cart {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#monpanier {
+    margin: 5px;
+    display: inline-block;
+}
+
+.fas.fa-shopping-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    font-size: 15px;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+#money {
+    color: white;
+    font-weight: bold;
+}
+
+header nav {
+    font-family: "Freight Sans Book SC";
+    font-size: 20px;
+    color: #d6e0c5;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+body {
+    background-color: #f2f3f5;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    background-color: ;
+}
+
+header nav li {
+    list-style-type: none;
+    margin: 30px;
+}
+
+main h1 {
+    font-family: "Lucy_Rounded_Bold";
+    color: #95b218;
+    text-align: center;
+    padding: 30px;
+}
+
+
+
+#voir-ce-produit {
+    margin: 20px auto;
+    width: 80%;
+    padding: 10px;
+    background-color: #b09067;
+    color: white;
+    font-family: "Cabrito Sans W01 Cond Medium";
+}
+
+#features {
+    font-family: "Freight Sans Book SC";
+    color: #ced79e;
+    background-color: #879e0f;
+}
+
+#features ul {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#features ul li {
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+#features i {
+    margin: 5px;
+    font-size: 150%;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu-footer {
+    background-color: #96b011;
+    font-family: "Freight Sans Book SC";
+    text-align: center;
+    width: 100%;
+}
+
+.menu-footer h3 {
+    color: #fdfeee;
+    padding: 20px;
+}
+
+.menu-footer li {
+    list-style: none;
+    color: #ced79e;
+    padding: 10px;
+}
+
+.information-footer {
+    background-image: url(./img-cup-of-tea/bg.jpg);
+    font-family: "Freight Sans Book SC";
+    text-align: center;
+}
+
+footer img {
+    height: 60px;
+}
+
+.P1 {
+    text-align: center;
+    color: #f0eee2;
+    padding: 20px;
+}
+
+footer p {
+    text-align: center;
+    color: #f0eee2;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    header {
+        text-align: center;
+    }
+    #header-dev {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    header img {
+        width: 50%;
+        margin: 0 auto;
+    }
+    header ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #cart {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    #monpanier {
+        margin: 5px;
+        display: inline-block;
+    }
+    #cart {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin: 20px 0;
+        box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+        border-radius: 10px 40px 40px 10px;
+    }
+    #carouselExampleSlidesOnly {
+        display: none;
+    }
+    #monpanier {
+        display: none;
+        color: tan;
+    }
+    nav ul {
+        padding: 20px;
+    }
+    main h1 {
+        display: none;
+    }
+    .tea {
+        width: 40%;
+    }
+    .our-products {
+        display: flex;
+        flex-direction: column;
+    }
+    .products-information {
+        text-align: center;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    #slider {
+        display: none;
+    }
+    #offert {
+        display: none;
+    }
+}
+
